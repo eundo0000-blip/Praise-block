@@ -2,10 +2,10 @@
 // (이 값들은 공개돼도 괜찮은 웹앱용 설정값이에요. 가족 코드는 여기 넣지 않고 각 기기에서 입력해요.)
 window.APP_CONFIG = {
   firebase: {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    appId: ""
+    apiKey: "AIza....",
+    authDomain: "praise-block-xxxx.firebaseapp.com",
+    projectId: "praise-block-xxxx",
+    appId: "1:1234...:web:abcd..."
   }
 };
 
