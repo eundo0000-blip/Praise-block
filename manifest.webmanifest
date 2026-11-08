@@ -1,0 +1,17 @@
+{
+  "name": "칭찬 블록",
+  "short_name": "칭찬 블록",
+  "description": "우리 가족 마인크래프트 시간 규칙과 칭찬 블록",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#8FD3FF",
+  "theme_color": "#5DAE3B",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

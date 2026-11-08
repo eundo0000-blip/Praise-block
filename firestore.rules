@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 로그인(익명)한 기기만, 가족 주소(familyId)를 아는 경우에만 읽고 쓸 수 있어요. 목록 조회는 막아요.
+    match /families/{familyId} {
+      allow get, create, update: if request.auth != null;
+      allow list, delete: if false;
+    }
+  }
+}
